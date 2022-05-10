@@ -8,7 +8,7 @@
 - [`com.bytelegend.Square`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Square.java)
   - `sideLength` is the length of the side of the square.
 - [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
-  - `diameter` is the radius of the circle. Hint: you can use `Math.PI`.
+  - `diameter` is the diameter of the circle. Hint: you can use `Math.PI`.
 - [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
   - `width` and `height` are the width and height of the rectangle.
 
@@ -44,7 +44,7 @@ Any changes to files other than the following files will be rejected:**
 - [`com.bytelegend.Square`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Square.java)
   - `sideLength`是正方形的边长。
 - [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
-  - `diameter`是圆形的半径。提示，圆周率可以使用`Math.PI`。
+  - `diameter`是圆形的直径。提示，圆周率可以使用`Math.PI`。
 - [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
   - `width`和`height`是矩形的宽度和高度。
 
@@ -79,7 +79,7 @@ Any changes to files other than the following files will be rejected:**
     -   `sideLength`是正方形邊的長度。
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   `diameter`是圓的半徑。提示：您可以使用`Math.PI` 。
+    -   `diameter`是圓的直徑。提示：您可以使用`Math.PI` 。
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width`和`height`是矩形的寬度和高度。
@@ -116,7 +116,7 @@ Complete `getArea()` con polimorfismo para calcular el área de formas
     -   `sideLength` es la longitud del lado del cuadrado.
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   el `diameter` es el radio del círculo. Sugerencia: puede usar `Math.PI`
+    -   `diameter` es el diámetro del círculo. Sugerencia: puede usar `Math.PI`
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width` y `height` son el ancho y alto del rectángulo.
@@ -153,7 +153,7 @@ Si necesita ayuda, no dude en unirse a la [comunidad de Discord](https://discord
     -   `sideLength` هو طول ضلع المربع.
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   `diameter` هو نصف قطر الدائرة. تلميح: يمكنك استخدام `Math.PI`
+    -   `diameter` هو قطر الدائرة. تلميح: يمكنك استخدام `Math.PI`
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width` `height` هما عرض المستطيل وارتفاعه.
@@ -190,18 +190,18 @@ Complete `getArea()` com polimorfismo para calcular a área das formas
     -   `sideLength` é o comprimento do lado do quadrado.
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   `diameter` é o raio do círculo. Dica: você pode usar `Math.PI` .
+    -   `diameter` é o diâmetro do círculo. Dica: você pode usar `Math.PI` .
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width` e `height` são a largura e a altura do retângulo.
 -   Você pode realizar este desafio de qualquer maneira abaixo:
     
     -   Recomendado para iniciantes: execute `git clone https://github.com/ByteLegendQuest/java-shape-area` para baixar o código, conclua o desafio em seu IDE local e copie/cole/envie a resposta no editor da web.
-        -   Se você não sabe como, você pode clicar em [importar projeto para IDEA](https://github.com/ByteLegendQuest/java-shape-area/blob/main/docs/en/clone-and-import.md) / [importar projeto para VSCode](https://github.com/ByteLegendQuest/java-shape-area/blob/main/docs/en/clone-and-import-vscode.md) .
+        -   Se você não sabe como, você pode clicar em [import project into IDEA](https://github.com/ByteLegendQuest/java-shape-area/blob/main/docs/en/clone-and-import.md) / [import project into VSCode](https://github.com/ByteLegendQuest/java-shape-area/blob/main/docs/en/clone-and-import-vscode.md) .
         -   Antes de enviar seu código, é melhor você executar `mvn verify` localmente para economizar tempo. Não sei como? Consulte [verificar localmente em IDEA](https://github.com/ByteLegendQuest/java-shape-area/blob/main/docs/en/run-mvn-verify-idea.md) / [verificar localmente em VSCode](https://github.com/ByteLegendQuest/java-shape-area/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Muito não recomendado: você pode [clicar aqui para baixar o código zipado](https://codeload.github.com/ByteLegendQuest/java-shape-area/zip/refs/heads/main) se não gostar das operações do `git` .
-    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor web, vá em frente.
-    -   Ou: se você estiver familiarizado com o GitHub, você pode bifurcar [o repo](https://github.com/ByteLegendQuest/java-shape-area) , finalizar o desafio e criar um pull request.
+    -   Ou: se você estiver confiante o suficiente para escrever código diretamente no editor da web, vá em frente.
+    -   Ou: se você estiver familiarizado com o GitHub, você pode fazer o fork [do repo](https://github.com/ByteLegendQuest/java-shape-area) , finalizar o desafio e criar uma pull request.
 -   O bot verificará seu PR e informará se você cumprir o desafio.
     
 -   Volte para [ByteLegend](https://bytelegend.com) e continue sua jornada de herói.
@@ -227,7 +227,7 @@ Selesaikan `getArea()` Dengan Polimorfisme untuk Menghitung Luas Bentuk
     -   `sideLength` adalah panjang sisi persegi.
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   `diameter` adalah jari-jari lingkaran. Petunjuk: Anda dapat menggunakan `Math.PI` .
+    -   `diameter` adalah diameter lingkaran. Petunjuk: Anda dapat menggunakan `Math.PI` .
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width` dan `height` adalah lebar dan tinggi persegi panjang.
@@ -264,7 +264,7 @@ Complétez `getArea()` avec polymorphisme pour calculer l'aire des formes
     -   `sideLength` est la longueur du côté du carré.
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   `diameter` est le rayon du cercle. Astuce : vous pouvez utiliser `Math.PI` .
+    -   `diameter` est le diamètre du cercle. Astuce : vous pouvez utiliser `Math.PI` .
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width` et `height` sont la largeur et la hauteur du rectangle.
@@ -301,7 +301,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
     -   `sideLength`は、正方形の辺の長さです。
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   `diameter`は円の半径です。ヒント： `Math.PI`を使用できます。
+    -   `diameter`は円の直径です。ヒント： `Math.PI`を使用できます。
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width`と`height`は、長方形の幅と高さです。
@@ -320,7 +320,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
 
 幸運を！
 
-ヘルプが必要な場合は、 [Discordコミュニティ](https://discord.gg/35RreUUGWt)に参加するか、contact [@bytelegend.com](mailto:contact@bytelegend.com)からお問い合わせください。
+ヘルプが必要な場合は、 [Discordコミュニティ](https://discord.gg/35RreUUGWt)に参加するか、contact [@bytelegend.com](mailto:contact@bytelegend.com)までお問い合わせください。
 
 **注：変更できるのは次のファイルのみです。次のファイル以外のファイルへの変更は拒否されます。**
 
@@ -338,7 +338,7 @@ Si vous avez besoin d'aide, n'hésitez pas à rejoindre la [communauté Discord]
     -   `sideLength` — длина стороны квадрата.
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   `diameter` - это радиус окружности. Подсказка: вы можете использовать `Math.PI`
+    -   `diameter` это диаметр окружности. Подсказка: вы можете использовать `Math.PI`
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width` и `height` - это ширина и высота прямоугольника.
@@ -375,7 +375,7 @@ Vervollständigen `getArea()` mit Polymorphismus, um die Fläche von Formen zu b
     -   `sideLength` ist die Seitenlänge des Quadrats.
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   `diameter` ist der Radius des Kreises. Hinweis: Sie können `Math.PI` verwenden.
+    -   `diameter` ist der Durchmesser des Kreises. Hinweis: Sie können `Math.PI` verwenden.
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width` und `height` sind die Breite und Höhe des Rechtecks.
@@ -386,7 +386,7 @@ Vervollständigen `getArea()` mit Polymorphismus, um die Fläche von Formen zu b
         -   Bevor Sie Ihren Code einreichen, sollten Sie `mvn verify` besser lokal ausführen, um Zeit zu sparen. Sie wissen nicht wie? Siehe [Lokal verifizieren in IDEA](https://github.com/ByteLegendQuest/java-shape-area/blob/main/docs/en/run-mvn-verify-idea.md) / [Lokal verifizieren in VSCode](https://github.com/ByteLegendQuest/java-shape-area/blob/main/docs/en/run-mvn-verify-vscode.md) .
     -   Sehr nicht zu empfehlen: Sie können [hier klicken, um den gezippten Code herunterzuladen,](https://codeload.github.com/ByteLegendQuest/java-shape-area/zip/refs/heads/main) wenn Sie `git` -Operationen nicht mögen.
     -   Oder: Wenn Sie sicher genug sind, Code direkt im Web-Editor zu schreiben, fahren Sie fort.
-    -   Oder: Wenn Sie mit GitHub vertraut sind, können Sie [das Repo forken](https://github.com/ByteLegendQuest/java-shape-area) , die Challenge beenden und einen Pull-Request erstellen.
+    -   Oder: Wenn Sie sich mit GitHub auskennen, können Sie [das Repo forken](https://github.com/ByteLegendQuest/java-shape-area) , die Challenge beenden und einen Pull-Request erstellen.
 -   Der Bot überprüft Ihre PR und teilt Ihnen mit, ob Sie die Herausforderung meistern.
     
 -   Gehen Sie zurück zu [ByteLegend](https://bytelegend.com) und setzen Sie Ihre Heldenreise fort.
@@ -412,7 +412,7 @@ Wenn Sie Hilfe benötigen, können Sie sich gerne der [Discord Community](https:
     -   `sideLength` 는 정사각형의 한 변의 길이입니다.
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   `diameter` 은 원의 반지름입니다. 힌트: `Math.PI` 를 사용할 수 있습니다.
+    -   `diameter` 은 원의 지름입니다. 힌트: `Math.PI` 를 사용할 수 있습니다.
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width` 와 `height` 사각형의 너비와 높이입니다.
@@ -449,7 +449,7 @@ Completa `getArea()` con il polimorfismo per calcolare l'area delle forme
     -   `sideLength` è la lunghezza del lato del quadrato.
 -   [`com.bytelegend.Circle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Circle.java)
     
-    -   `diameter` è il raggio del cerchio. Suggerimento: puoi usare `Math.PI` .
+    -   `diameter` è il diametro del cerchio. Suggerimento: puoi usare `Math.PI` .
 -   [`com.bytelegend.Rectangle`](https://github.com/ByteLegendQuest/java-shape-area/blob/main/src/main/java/com/bytelegend/Rectangle.java)
     
     -   `width` e `height` sono la larghezza e l'altezza del rettangolo.
