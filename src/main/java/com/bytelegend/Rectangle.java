@@ -1,9 +1,7 @@
 package com.bytelegend;
 
 public class Rectangle extends Shape {
-    /**
-     * `width` and `height` are the width and height of the rectangle.
-     */
+    /** `width` and `height` are the width and height of the rectangle. */
     private final double width;
 
     private final double height;
@@ -11,10 +9,5 @@ public class Rectangle extends Shape {
     public Rectangle(double width, double height) {
         this.width = width;
         this.height = height;
-    }
-
-    @Override
-    public double getArea() {
-        return width * height;
     }
 }
