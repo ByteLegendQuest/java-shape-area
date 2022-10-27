@@ -7,4 +7,8 @@ public class Square extends Shape {
     public Square(double sideLength) {
         this.sideLength = sideLength;
     }
+
+    public double getArea() {
+        return sideLength * sideLength;
+    }
 }
