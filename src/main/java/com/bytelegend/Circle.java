@@ -7,8 +7,4 @@ public class Circle extends Shape {
     public Circle(double diameter) {
         this.diameter = diameter;
     }
-
-    public double getArea() {
-        return Math.PI * (diameter / 2) * (diameter / 2);
-    }
 }
