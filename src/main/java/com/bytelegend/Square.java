@@ -6,5 +6,11 @@ public class Square extends Shape {
 
     public Square(double sideLength) {
         this.sideLength = sideLength;
+        getArea();
+    }
+
+    @Override
+    public double getArea() {
+        return (sideLength * sideLength);
     }
 }
